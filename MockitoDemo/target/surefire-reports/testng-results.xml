@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="edu.birzeit.DepartmentsSerivceTest" duration-ms="274" started-at="2018-09-29T10:32:28Z" finished-at="2018-09-29T10:32:29Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="274" started-at="2018-09-29T10:32:28Z" finished-at="2018-09-29T10:32:29Z">
+      <class name="edu.birzeit.DepartmentsSerivceTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@60f82f98]" name="setup" is-config="true" duration-ms="162" started-at="2018-09-29T13:32:28Z" finished-at="2018-09-29T13:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteDepartmentTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@60f82f98]" name="deleteDepartmentTest" duration-ms="16" started-at="2018-09-29T13:32:29Z" finished-at="2018-09-29T13:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDepartmentTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@60f82f98]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-29T13:32:29Z" finished-at="2018-09-29T13:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="deleteDepartmentTest_faiulre()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@60f82f98]" name="deleteDepartmentTest_faiulre" duration-ms="2" started-at="2018-09-29T13:32:29Z" finished-at="2018-09-29T13:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDepartmentTest_faiulre -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@60f82f98]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-29T13:32:29Z" finished-at="2018-09-29T13:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="demoOrderVerification()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@60f82f98]" name="demoOrderVerification" duration-ms="31" started-at="2018-09-29T13:32:29Z" finished-at="2018-09-29T13:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoOrderVerification -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@60f82f98]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-29T13:32:29Z" finished-at="2018-09-29T13:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@60f82f98]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-29T13:32:29Z" finished-at="2018-09-29T13:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="demoSpyFeature()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@60f82f98]" name="demoSpyFeature" duration-ms="31" started-at="2018-09-29T13:32:29Z" finished-at="2018-09-29T13:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoSpyFeature -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@60f82f98]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-09-29T13:32:29Z" finished-at="2018-09-29T13:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="demoSpyFeature2()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@60f82f98]" name="demoSpyFeature2" duration-ms="1" started-at="2018-09-29T13:32:29Z" finished-at="2018-09-29T13:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoSpyFeature2 -->
+        <test-method status="PASS" signature="searchDepartmentTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@60f82f98]" name="searchDepartmentTest" duration-ms="3" started-at="2018-09-29T13:32:29Z" finished-at="2018-09-29T13:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDepartmentTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@60f82f98]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-29T13:32:29Z" finished-at="2018-09-29T13:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@60f82f98]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-29T13:32:29Z" finished-at="2018-09-29T13:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="searchDepartmentTest2()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@60f82f98]" name="searchDepartmentTest2" duration-ms="1" started-at="2018-09-29T13:32:29Z" finished-at="2018-09-29T13:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDepartmentTest2 -->
+        <test-method status="PASS" signature="searchDepartmentTest_faiulre()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@60f82f98]" name="searchDepartmentTest_faiulre" duration-ms="4" started-at="2018-09-29T13:32:29Z" description="Negative test case" finished-at="2018-09-29T13:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDepartmentTest_faiulre -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@60f82f98]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-29T13:32:29Z" finished-at="2018-09-29T13:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- edu.birzeit.DepartmentsSerivceTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- edu.birzeit.DepartmentsSerivceTest -->
+</testng-results>

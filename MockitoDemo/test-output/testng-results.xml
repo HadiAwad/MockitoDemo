@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="288" started-at="2018-09-29T11:47:45Z" finished-at="2018-09-29T11:47:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="288" started-at="2018-09-29T11:47:45Z" finished-at="2018-09-29T11:47:45Z">
+      <class name="edu.birzeit.DepartmentsSerivceTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@c038203]" name="setup" is-config="true" duration-ms="152" started-at="2018-09-29T14:47:45Z" finished-at="2018-09-29T14:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteDepartmentTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@c038203]" name="deleteDepartmentTest" duration-ms="20" started-at="2018-09-29T14:47:45Z" finished-at="2018-09-29T14:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDepartmentTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@c038203]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-29T14:47:45Z" finished-at="2018-09-29T14:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="deleteDepartmentTest_faiulre()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@c038203]" name="deleteDepartmentTest_faiulre" duration-ms="0" started-at="2018-09-29T14:47:45Z" finished-at="2018-09-29T14:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDepartmentTest_faiulre -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@c038203]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-29T14:47:45Z" finished-at="2018-09-29T14:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="demoOrderVerification()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@c038203]" name="demoOrderVerification" duration-ms="36" started-at="2018-09-29T14:47:45Z" finished-at="2018-09-29T14:47:45Z">
+          <exception class="org.mockito.exceptions.verification.VerificationInOrderFailure">
+            <message>
+              <![CDATA[Verification in order failureWanted but not invoked:departmentHibernateDAO.demoenstrateSpy(    <any>);-> at edu.birzeit.DepartmentsSerivceTest.demoOrderVerification(DepartmentsSerivceTest.java:158)Wanted anywhere AFTER following interaction:departmentHibernateDAO.demoenstrateSpy("2");-> at edu.birzeit.DepartmentsSerivceTest.demoOrderVerification(DepartmentsSerivceTest.java:154)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.mockito.exceptions.verification.VerificationInOrderFailure: Verification in order failureWanted but not invoked:departmentHibernateDAO.demoenstrateSpy(    <any>);-> at edu.birzeit.DepartmentsSerivceTest.demoOrderVerification(DepartmentsSerivceTest.java:158)Wanted anywhere AFTER following interaction:departmentHibernateDAO.demoenstrateSpy("2");-> at edu.birzeit.DepartmentsSerivceTest.demoOrderVerification(DepartmentsSerivceTest.java:154)at edu.birzeit.DepartmentsSerivceTest.demoOrderVerification(DepartmentsSerivceTest.java:158)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.mockito.exceptions.verification.VerificationInOrderFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoOrderVerification -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@c038203]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-29T14:47:45Z" finished-at="2018-09-29T14:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@c038203]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-29T14:47:45Z" finished-at="2018-09-29T14:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="demoSpyFeature()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@c038203]" name="demoSpyFeature" duration-ms="32" started-at="2018-09-29T14:47:45Z" finished-at="2018-09-29T14:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoSpyFeature -->
+        <test-method status="PASS" signature="searchDepartmentTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@c038203]" name="searchDepartmentTest" duration-ms="4" started-at="2018-09-29T14:47:45Z" finished-at="2018-09-29T14:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDepartmentTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@c038203]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-29T14:47:45Z" finished-at="2018-09-29T14:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@c038203]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-29T14:47:45Z" finished-at="2018-09-29T14:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="demoSpyFeature2()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@c038203]" name="demoSpyFeature2" duration-ms="0" started-at="2018-09-29T14:47:45Z" finished-at="2018-09-29T14:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoSpyFeature2 -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@c038203]" name="beforeTest" is-config="true" duration-ms="4" started-at="2018-09-29T14:47:45Z" finished-at="2018-09-29T14:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="searchDepartmentTest_faiulre()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@c038203]" name="searchDepartmentTest_faiulre" duration-ms="9" started-at="2018-09-29T14:47:45Z" description="Negative test case" finished-at="2018-09-29T14:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDepartmentTest_faiulre -->
+        <test-method status="PASS" signature="searchDepartmentTest2()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@c038203]" name="searchDepartmentTest2" duration-ms="0" started-at="2018-09-29T14:47:45Z" finished-at="2018-09-29T14:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDepartmentTest2 -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:edu.birzeit.DepartmentsSerivceTest@c038203]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-29T14:47:45Z" finished-at="2018-09-29T14:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- edu.birzeit.DepartmentsSerivceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

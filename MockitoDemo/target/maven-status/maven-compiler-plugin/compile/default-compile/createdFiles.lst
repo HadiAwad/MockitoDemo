@@ -1,0 +1,7 @@
+edu\birzeit\runner\MockitoDemoSpringConfig.class
+edu\birzeit\dao\DepartmentHibernateDAO.class
+edu\birzeit\entity\Department.class
+edu\birzeit\dao\DemoSesssionFactory.class
+edu\birzeit\dao\DepartmentDAO.class
+edu\birzeit\DepartmentsSerivce.class
+edu\birzeit\runner\MockitoDemoSpringConfig$Config.class
